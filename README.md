@@ -6,6 +6,7 @@ Applescript for linting javascript documents in TextWrangler
 
 ## Installation
 Install NodeJS and NPM (https://nodejs.org/en/download/) 
+
 Install jslint (https://www.npmjs.com/package/jslint)
 ```
 npm install jslint -g
