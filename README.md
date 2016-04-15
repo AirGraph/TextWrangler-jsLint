@@ -20,3 +20,12 @@ Copy jsLint text to Script Editor and save it as jsLint.scpt to
 ~/Library/Application Support/TextWrangler/Scripts
 ```
 Launch TextWrangler, open js document, select jsLint in script menu and enjoy...
+
+QuickStart
+==========
+All available options of jsLint you may place in ~/.jslintrc, for example.
+Something like this:
+```
+{"sloppy":true, "maxerr":9, "terse":true, "white":true}
+```
+
