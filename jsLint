@@ -1,0 +1,38 @@
+tell application "TextWrangler"
+	
+	set winList to every text window
+	set scriptFile to ""
+	
+	repeat with win in winList
+		if visible of win then
+			
+			if modified of active document of win then
+				display alert "Save document and try again..."
+				return
+			end if
+			
+			tell win
+				set scriptFile to file of active document as string
+			end tell
+			exit repeat
+			
+		end if
+	end repeat
+end tell
+
+if scriptFile is not equal to "" then
+	
+	set shellScript to "cd /usr/local/bin" & ";" & "./jslint " & POSIX path of scriptFile
+	try
+		
+		do shell script shellScript
+		display alert "Long Live Rock'N'Roll!!!"
+		
+	on error errStr
+		
+		tell application "TextWrangler"
+			make new text document with properties {name:"jsLint result", contents:errStr}
+		end tell
+		
+	end try
+end if
