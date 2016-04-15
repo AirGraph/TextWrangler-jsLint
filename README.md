@@ -21,8 +21,7 @@ Copy jsLint text to Script Editor and save it as jsLint.scpt to
 ```
 Launch TextWrangler, open js document, select jsLint in script menu and enjoy...
 
-QuickStart
-==========
+## QuickStart
 All available options of jsLint you may place in ~/.jslintrc, for example.
 Something like this:
 ```
