@@ -1,5 +1,5 @@
 # TextWrangler-jsLint
-Applescript for linting javascript documents in TextWrangler
+Applescript for linting javascripts in TextWrangler
 
 ## Questions and Bug Reports
 * mailing list: Victor.Vazin@gmail.com
