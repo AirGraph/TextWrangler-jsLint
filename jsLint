@@ -1,5 +1,4 @@
 set jsFile to ""
-
 tell application "TextWrangler"
 	
 	set winList to every text window
