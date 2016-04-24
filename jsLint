@@ -21,7 +21,7 @@ end tell
 
 if jsFile is not equal to "" then
 	
-	set shellScript to "cd /usr/local/bin" & ";" & "./jslint " & POSIX path of jsFile
+	set shellScript to "cd /usr/local/bin" & ";" & "./node jslint " & POSIX path of jsFile
 	try
 		
 		do shell script shellScript
