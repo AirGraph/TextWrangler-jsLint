@@ -11,11 +11,6 @@ Install jslint (https://www.npmjs.com/package/jslint)
 ```
 npm install jslint -g
 ```
-Place symbolic link to NodeJS in /usr/bin
-```
-cd /usr/bin
-sudo ln -s /usr/local/bin/node ./node
-```
 Copy jsLint text to Script Editor and save it as jsLint.scpt to
 ```
 ~/Library/Application Support/TextWrangler/Scripts
