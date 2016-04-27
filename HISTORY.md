@@ -5,3 +5,7 @@
 0.1.0 04-24-2016
 ----------------
 * Thanks AndL. No symbolic links, such as `node` in `/usr/bin` and so on...
+
+0.1.1 04-27-2016
+----------------
+* Something special...
